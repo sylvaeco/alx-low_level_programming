@@ -4,7 +4,7 @@
 /*
  * main - Entry point
  *
- * Description: 'and that piece of art is useful" - Dora Korpar, 2015-10-19'
+ * Description: Displays the words in the write function
  *
  * Return: Outputs 0 in this instance (Sucess)
  *
