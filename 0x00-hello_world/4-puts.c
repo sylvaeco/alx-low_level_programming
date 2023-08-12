@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * This is the entry point of te code
+ * main - entry point of the code
+ *
+ * Return: Outputs 0 in this instance (Sucess)
+ *
  * The puts function prints the required text
- * exits the program with value 0 equating to a false value
  */
 
 
