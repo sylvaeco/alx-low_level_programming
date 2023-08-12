@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-/*
+/**
  * main - Entry point
  *
  * Description: Displays the words in the write function
