@@ -1,11 +1,14 @@
 #include <stdio.h>
 
-/* This is the entry point of te code*/
+/* This is the entry point of te code
+ * The puts function prints the required text
+ * the return program exits the program with the value 0 equating to a false value
+ */
+
+
 int main(void)
 {
-	    /* The puts function prints the required text*/
-	    puts("\"Programming is like building a multilingual puzzle");
 
-	    /* Exit the program with a value of 0 which equaates to false*/
+	    puts("\"Programming is like building a multilingual puzzle");
 	    return (0);
 }
