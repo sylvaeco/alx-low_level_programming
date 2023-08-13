@@ -1,43 +1,28 @@
 #include <stdio.h>
-
 /**
-* main - This is the entry point
+* main - entry point
 *
-* Description: The main function is the first function executed
-* in the program when the is run
+* Return: alway returns 0
 *
-* Return: returns 0 for code success
 */
-
 int main(void)
 {
-	int a, b, i, j, k, m;
+	int i;
+	int j;
 	
-	for (i = 48; i < 58; i++) 
+	for (i = 0; i <= 99; i++)
 	{
-		for (j = 48; j < 58; j++) 
+		for (j = i + 1; j <= 99; j++)
 		{
-			for (k = 48; k < 58; k++) 
+			putchar(i / 10 + '0');
+			putchar(i % 10 + '0');
+			putchar(' ');
+			putchar(j / 10 + '0');
+			putchar(j % 10 + '0');	
+			if (!(i == 98 && j == 99))			
 			{
-				for (m = 48; m < 58; m++) 
-				{
-					int a = (i * 10) + j;
-					int b = (k * 10) + m;
-					if (k > i || (k == i && m > j)) 
-					{
-						putchar(i);
-						putchar(j);
-						putchar(' ');
-						putchar(k);
-						putchar(m);
-						if (i == 57 && j == 56 && k == 57 && m == 57) 
-						{
-							continue;
-						}
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				putchar(',');
+				putchar(' ');								
 			}
 		}
 	}
