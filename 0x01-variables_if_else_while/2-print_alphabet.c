@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- *
- * main - Entry point
- *
- * return: Always runs when the code succeed.
- *
- * putchar was used instead of printf
- */
+* main - Entry point
+*
+* return: Always runs when the code succeed.
+*
+* putchar was used instead of printf
+*/
 
 
 int main(void)
