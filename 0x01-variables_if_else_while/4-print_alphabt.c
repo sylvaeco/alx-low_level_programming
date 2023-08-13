@@ -7,7 +7,7 @@
 *
 * The putchar was used instead of printf.
 *
-*/ 
+*/
 
 
 
