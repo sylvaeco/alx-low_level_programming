@@ -3,7 +3,7 @@
 /**
 * main - Entry point
 *
-* return: Always runs when the code succeed.
+* Return: Always runs when the code succeed.
 *
 * putchar was used instead of printf
 */
