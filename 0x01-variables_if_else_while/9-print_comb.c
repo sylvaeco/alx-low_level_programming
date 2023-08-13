@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /**
 * main - Entry point
@@ -11,16 +11,17 @@ nclude <stdio.h>
 
 int main(void)
 {
-	int i; 
-	for (i = 0; i < 10; i++)
+	int x;
+
+	for (x = 48; x < 58; x++)
 	{
-		putchar(i + '0');
-		if (i != 9)
+		putchar(x);
+		if (x != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		}
+	}
 	putchar('\n');
 	return (0);
 }
