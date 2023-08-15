@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - prints lowercase alphabet
  *
  * Description: this code uses the _putchar function to display/print
  * its contents
