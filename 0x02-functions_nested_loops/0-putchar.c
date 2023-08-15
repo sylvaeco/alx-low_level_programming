@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
-* main - The entry point
+* main - Entry point
 *
 * Description: this code uses the putchar function to display/print
 * its contents
