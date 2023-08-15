@@ -1,7 +1,7 @@
 #include "main.h"
+
 /**
-* _islower - checks and prints 1 for lowercase alphabet
-* and 0 for non lowercase
+* print_alphabet_x10 - prints the lowercase alphabets
 *
 * Description: this code uses the _putchar function to display/print
 * its contents
@@ -11,12 +11,18 @@
 *
 */
 
-int _islower(int c)
+void print_alphabet_x10(void)
 {
-	if (c >= 'a' && c <= 'z')
+	char c;
+	int i;
+	for (i = 0; i < 10; i++) 
 	{
-		return 1;
+		c = 'a';
+		while (c <= 'z') 
+		{
+			_putchar(c);
+			c++;
+		}
+		_putchar('\n');
 	}
-	    else
-		    return 0;
 }
