@@ -2,11 +2,11 @@
 /**
 * times_table - This function prints the 9 times table, starting with 0
 *
-* 
+*
 */
 
 
-void times_table(void) 
+void times_table(void)
 {
 	int i, j, result;
 
@@ -15,7 +15,7 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			result = i * j;
-    			if (result <= 9)
+			if (result <= 9)
 			{
 				if (j > 0)
 				{
@@ -23,7 +23,8 @@ void times_table(void)
 				}
 				_putchar(result + '0');
 			}
-			else {
+			else
+			{
 				_putchar((result / 10) + '0');
 				_putchar((result % 10) + '0');
 			}
