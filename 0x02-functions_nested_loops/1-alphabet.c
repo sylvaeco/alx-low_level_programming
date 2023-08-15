@@ -6,7 +6,7 @@
  * Description: this code uses the _putchar function to display/print
  * its contents
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Success), this will not be invoked here
  *
  *
  */
@@ -20,5 +20,4 @@ void print_alphabet(void)
 		c++;
 	}
 	_putchar('\n');
-	return (0);
 }
