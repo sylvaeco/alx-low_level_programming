@@ -2,7 +2,7 @@
 /**
 * _abs - function computes the absolute value of an integer
 *
-* @c: This is the int argument of the function 
+* @c: This is the int argument of the function
 *
 *Return: Always 0 (Success), this will not be invoked here
 */
@@ -13,6 +13,6 @@ int _abs(int c)
 	{
 		return (-c);
 	}
-	else 
+	else
 		return (c);
 }
