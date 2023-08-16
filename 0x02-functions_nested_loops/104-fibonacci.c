@@ -11,7 +11,7 @@ int main(void)
 {
 	unsigned long int w = 0, x = 0, y = 1, z;
 	unsigned long int x1, x2, y1, y2, z1, z2;
-	
+
 	while (w < 92)
 	{
 		z = x + y;
