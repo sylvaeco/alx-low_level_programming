@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - This is the entry point of the function
-* that prints natural numbers below 1024 
+* that prints natural numbers below 1024
 * that are multiples of 3 or 5
 *
 * Return: This return success enoted by 0
