@@ -9,6 +9,7 @@
 int main(void)
 {
 	long int a, b, c, next;
+
 	b = 1;
 	c = 2;
 
