@@ -8,7 +8,7 @@
  *
  * @b: This is the second integer input
  *
- * Return: Always 0 for a success
+ * Return: Returns the output of mul
  */
 
 
