@@ -11,12 +11,10 @@
  *
  * Return: Returns the output of mul
  */
-
-
-
 int mul(int a, int b)
 {
-	int result = a * b;
+	int result;
 
+	result = a * b;
 	return (result);
 }
