@@ -3,7 +3,6 @@
 /**
 * print_numbers - This function prints the integers
 * 0 through 9
-*
 * Return: Always returns void.
 */
 
