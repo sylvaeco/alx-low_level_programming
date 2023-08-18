@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _isdigit - This is the function that checks  the stated parameters
  * @c: This takes an integer value
  * Return: Always for success..
  */
