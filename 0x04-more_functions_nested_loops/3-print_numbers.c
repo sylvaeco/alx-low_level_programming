@@ -1,15 +1,14 @@
-#include "main.h"
+nclude "main.h"
 
 /**
-* print_numbers - This function prints the integers 0 through 9
-* Return: Always returns void.
+* print_numbers - This function that prints the number, from 0 to 9.
+* Return: Always void
 */
-
 void print_numbers(void)
 {
-	char n;
-	
-	for (n = '0'; n <= '9'; n++)
-		_putchar(n);
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
+		_putchar(c);
 	_putchar('\n');
 }
