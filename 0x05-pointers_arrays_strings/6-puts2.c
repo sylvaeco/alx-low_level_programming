@@ -13,9 +13,10 @@ void puts2(char *str)
 	char ch;
 
 	len = 0;
-	while (*str != '\0')
+	count = str;
+	while (*count != '\0')
 	{
-		str++;
+		count++;
 		len++;
 	}
 	for (n = 0 ; n < len ; n++)
