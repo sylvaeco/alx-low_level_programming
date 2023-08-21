@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
+ * print_array - this prints n elements of array of integer
  *
+ * @a: Variable integer
  *
- *
- *
- *
+ * @n: Variable input
  */
 
 void print_array(int *a, int n)
