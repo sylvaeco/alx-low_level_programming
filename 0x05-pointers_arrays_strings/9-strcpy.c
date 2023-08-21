@@ -1,12 +1,11 @@
 #include "main.h"
-
 /**
- * *_strcpy - function that copies the string pointed to by src
- *
- * @dest: this is the array pointer
- *
- * @src: elements of the above array
- */
+* *_strcpy - This function that copies the string pointed to by src.
+* @dest: array name
+* @src: elements of the array.
+*
+* Return: Always void.
+*/
 
 char *_strcpy(char *dest, char *src)
 {
