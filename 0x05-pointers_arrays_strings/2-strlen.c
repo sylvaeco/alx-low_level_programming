@@ -6,6 +6,8 @@
  *
  * @s: This is the variable value to be evaluated
  *
+ * Return - this returns the counted value of strlen
+ *
  */
 
 int _strlen(char *s)
