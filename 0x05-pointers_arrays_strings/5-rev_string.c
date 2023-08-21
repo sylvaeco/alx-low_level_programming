@@ -21,7 +21,7 @@ void rev_string(char *s)
 	for (int i = 0; i < len / 2; i++)
 	{
 		tmp = *(s - i - 1);
-		*(s - i - 1) = *(s - length + i);
-		*(s - length + i) = tmp;
+		*(s - i - 1) = *(s - len + i);
+		*(s - len + i) = tmp;
 	}
 }
