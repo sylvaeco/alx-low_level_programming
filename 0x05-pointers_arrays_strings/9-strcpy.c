@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - function that copies the string pointed to by src
+ * *_strcpy - function that copies the string pointed to by src
  *
  * @dest: this is the array pointer
  *
