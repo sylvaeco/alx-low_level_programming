@@ -1,14 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * _strlen - returns the function of a string.
- *
- * @s: This is the variable value to be evaluated
- *
- * Return - this returns the counted value of strlen
- *
- */
+* _strlen - returns the function of a string.
+* @s: value to evaluate
+* Return: Always void.
+*/
+
 
 int _strlen(char *s)
 {
