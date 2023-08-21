@@ -1,21 +1,30 @@
 #include "main.h"
 
 /**
- *
- *
- *
- *
- *
- */
+* puts2 - Prints a string
+* @str: Variable string
+*
+* Return: Always void.
+*/
 
 void puts2(char *str)
 {
-	int i = 0;
+	int len, n;
+	char ch;
 
-	while (*(str + i) != '\0')
+	len = 0;
+	while (*str != '\0')
 	{
-		_putchar(*(str + i));
-		i += 2;
+		count++;
+		len++;
 	}
-	_putchar('\n');
+	for (n = 0 ; n < len ; n++)
+	{
+		if (n % 2 == 0)
+		{
+			ch = *(str + n);
+			_putchar(ch);
+		}
+	}
+	_putchar(10);
 }
