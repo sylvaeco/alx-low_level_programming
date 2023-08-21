@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strlen - returns the length of a string
+ * _strlen - returns the function of a string.
  *
  * @s: This is the variable value to be evaluated
  *
