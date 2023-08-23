@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * *_strcat - This concatenate the value of two strings
  *
@@ -7,20 +7,24 @@
  *
  * @src: The second variable
  *
+ * Return: this returns 0 for success.
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int m)
 {
-	char *result = dest;
-	
-	while (*dest != '\0')
+	int dest_len = 0;
+	int i = 0;
+
+	while (dest[dest_len] != '\0')
 	{
-		dest++;
+		dest_len++;
 	}
-	while (*src != '\0')
+	while (src[i] != '\0' && i < m)
 	{
-		*dest++ = *src++;
+		dest[dest_len] = src[i];
+		dest_len++;
+		i++;
 	}
-	*dest = '\0';
-	return result;
+	dest[dest_len] = '\0';
+	return (dest);
 }
