@@ -7,7 +7,7 @@
  *
  * @src: This is the second variable
  *
- * Return: this returns 0 for success.
+ * Return: this returns 0 for success
  */
 
 char *_strcat(char *dest, char *src)
@@ -25,7 +25,7 @@ char *_strcat(char *dest, char *src)
 		d++;
 		i++;
 	}
-	
+
 	dest[d] = '\0';
 	return (dest);
 }
