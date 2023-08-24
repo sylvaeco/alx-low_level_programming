@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * reverse_array - This 
- * @a: This 
- * @n: This is the 
+ * reverse_array - This reverses the inputs of the arrays of ints
+ * @a: This is the arrays of inputs to be reverse
+ * @n: This is the number of data content of the array
  *
  *
  */
