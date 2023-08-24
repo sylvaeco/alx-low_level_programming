@@ -2,11 +2,11 @@
 
 /**
  * _strcmp - Compares two strings.
- * 
+ *
  * @s1: The first string to compare.
- * 
+ *
  * @s2: The second string to compare.
- * 
+ *
  * Return: array of characters.
  *
  */
