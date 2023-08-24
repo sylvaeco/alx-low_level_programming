@@ -1,19 +1,15 @@
 #include "main.h"
 
 /**
- * _strcmp - Compares two strings.
- *
- * @s1: The first string to compare.
- *
- * @s2: The second string to compare.
- *
- * Return: array of characters.
- *
- */
+* _strcmp - This compares two strings.
+* @s1: The first string to compare.
+* @s2: The second string to compare.
+* Return: This returns an array of characters.
+*/
 
 int _strcmp(char *s1, char *s2)
 {
-	int i;
+	int i = 0;
 
 	while (s1[i] != '\0' && s2[i] != '\0')
 	{
@@ -23,6 +19,7 @@ int _strcmp(char *s1, char *s2)
 		}
 		i++;
 	}
+
 	if (s1[i] == '\0' && s2[i] == '\0')
 	{
 		return (0);
