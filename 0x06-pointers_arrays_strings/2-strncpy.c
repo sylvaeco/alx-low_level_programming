@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncpy -This copies  a string  from scr to dest using n bytes
  * @dest: The destinantion buffer
@@ -22,6 +21,6 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[d] = '\0';
 		d++;
 	}
-	
+
 	return (dest);
 }
