@@ -9,7 +9,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What are multidimensional arrays and how to use them
 - What are the most common C standard library functions to manipulate strings
 
-# NB
+## NB
 The tasks covered are relatively advance in comparison to last week's.
 Multi-dimension arrays (matrices in reality) were introduced. The use of pointers of
 pointer was also taught.
