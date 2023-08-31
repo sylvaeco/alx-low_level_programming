@@ -20,7 +20,7 @@ int _strlen_recursion(char *s)
  * @s: The string
  * @n1: The smallest iterator.
  * @n2: The biggest iterator.
- * 
+ *
  * Return: This returns nothing
  */
 int comparator(char *s, int n1, int n2)
