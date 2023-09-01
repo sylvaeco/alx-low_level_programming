@@ -25,21 +25,21 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		char *arg = argv[i];
-		while (*arg)
+	while (*arg)
+	{
+		if (!isdigit(*arg))
 		{
-			if (!isdigit(*arg))
-			{
-				printf("Error\n");
-				return (1);
-			}
-			arg++;
+			printf("Error\n");
+			return (1);
 		}
-		num = atoi(argv[i]);
-		if (num <= 0)
-		{
-			continue;
-		}
-		sum += num;
+		arg++;
+	}
+	num = atoi(argv[i]);
+	if (num <= 0)
+	{
+		continue;
+	}
+	sum += num;
 	}
 
 	printf("%d\n", sum);
