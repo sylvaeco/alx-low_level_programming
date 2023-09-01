@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - This is the entry point
- * @argc: Counts the arguments
- * @argv: Argument vector
+ * main - Entry point
+ * @argc: counts arguments
+ * @argv: array of arguments
  *
- * Return: Always returns 0 for success
+ * Return: always 0 (success)
  */
 
 int main(int argc, char *argv[])
@@ -17,8 +18,9 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	res = atoi(argv[1] * argv[2]);
-	prinf("%d\n", res);
+	res = atoi(argv[1]) * atoi(argv[2]);
+	printf("%d\n", res);
+
 
 	return (0);
 }
