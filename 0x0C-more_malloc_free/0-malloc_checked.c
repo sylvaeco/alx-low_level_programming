@@ -11,11 +11,11 @@
 
 void *malloc_checked(unsigned int b)
 {
-	void *check = malloc(b);
+	void *point = malloc(b);
 
-	if (check == NULL)
+	if (point == NULL)
 	{
 		exit(98);
 	}
-	return (check);
+	return (point);
 }
