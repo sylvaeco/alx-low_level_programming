@@ -3,7 +3,6 @@
 
 /**
  * string_nconcat - The entry point
- *
  * @s1: string one
  * @s2: string two
  * @n: The number of bytes
@@ -17,6 +16,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 		s1 = "";
+
 	if (s2 == NULL)
 		s2 = "";
 
@@ -33,7 +33,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	result = (char *)malloc((result_len + 1) * sizeof(char));
 
 	if (result == NULL)
-		return NULL;
+		return (NULL);
 
 	p = result;
 
