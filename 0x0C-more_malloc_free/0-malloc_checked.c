@@ -2,19 +2,20 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - This is the entry point
+ * malloc_checked - Entry point
  *
- * @b: The size of block
+ * @b: size of block
  *
- * Return: This returns a pointer to the memory address
+ * Return: returns a pointer to the memory address
  */
+
 void *malloc_checked(unsigned int b)
 {
-	void *point = malloc(b);
+	void *check = malloc(b);
 
-	if (point = NULL)
+	if (check == NULL)
 	{
 		exit(98);
 	}
-	return (point);
-}	
+	return (check);
+}
